@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Imagens</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <header class="shadow">
+        <h3 id="right-spacement">Gera</h3>
+        <nav class="scrollmenu">
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="gerar.html" class="active">Gerar Imagem</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div class="generate" id="one-collumn-margin">
+            <div class="background shadow">
+                <h1>Gerador de Imagens</h1>
+                <p>Nesta página, é possível descrever o que deseja visualizar e a Inteligência Artificial criará uma imagem visualmente coerente.</p>
+                <ol>
+                    <li>Digite um prompt! Quanto mais detalhe melhor</li>
+                    <li>Aperte no botão abaixo</li>
+                    <li>Aguarde a imagem ser gerada</li>
+                </ol>
+                <form action="#">
+                    <label for="descrição">Input</label>
+                    <input type="text" name="descrição" id="descrição">
+                    <button type="submit" class="primary-button">Enviar</button>
+                </form>
+            </div>
+            <div class="background shadow">
+                <img src="https://picsum.photos/360" alt="Imagem Gerada">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <hr>
+            <h5>2025 Gera, Inc.</h5>
+        </div>
+    </footer>
+</body>
+</html>
