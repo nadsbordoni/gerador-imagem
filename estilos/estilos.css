@@ -49,7 +49,8 @@ p {
     font-weight: normal;
 }
 
-ul, ol {
+ul,
+ol {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -149,7 +150,7 @@ nav.scrollmenu {
     overflow: auto;
     white-space: nowrap;
 }
-  
+
 nav.scrollmenu a {
     display: inline-block;
     color: white;
@@ -189,7 +190,7 @@ nav.scrollmenu a:hover:not(.active) {
     background-color: #424769;
     padding: 50px;
     border-radius: 10px;
-    
+
 }
 
 .gallery {
